@@ -51,8 +51,7 @@ function showNotes() {
         <hr>
         <button class="my-1 btn btn-outline-dark"><b>Copy</b></button>
         <button class="my-3 btn btn-outline-dark" id="${index}" onclick="eraseNotes(this.id)"><b>Delete</b></button>
-        </div>
-    `;});
+        </div>  `;});
     let cards = document.getElementById("cards");
     if (notes.length != 0) {
       cards.innerHTML = html;
